@@ -1,0 +1,33 @@
+{
+  "name": "fetch-backend",
+  "version": "1.0.0",
+  "description": "Fetch-Backend: Home assignment to implement backend of User-Points API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divy9881/fetch-backend.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "API",
+    "Fetch"
+  ],
+  "author": "Divy Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divy9881/fetch-backend/issues"
+  },
+  "homepage": "https://github.com/divy9881/fetch-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
