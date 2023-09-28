@@ -1,0 +1,15 @@
+Why did you choose the tools, libraries, and language you used for the coding exercise?
+I have chosen to go with Node.js as it has huge developer community and has a very active open-source contributors society. It comes with a very convenient package manager with tons of reliable and highly adopted external packages. The node package manager also helps us to manage dependency version upgrades to keep our software up-to-date and bug-free, and also helps us maintain version compatibility among packages.
+Express.js was chosen as REST API server framework as it has strong support to MVC(Model View Controller) principles, which helps us to modularize our code and hence, motivates code reusability. It also supports a large ecosystem of other external dependencies for authorization, authentication, encryption, and some database adapters like MongoDB via Mongoose dependency
+
+What are the advantages and disadvantages of your solution?
+Advantages:
+- Efficieny and performance of Express in comparison with other REST API server frameworks like Flask, Django
+- Leverage MVC(Model View Controller) capablilities of Express.js
+- Reduced code development time, by utilizing large ecosystem of external packages supported by Express
+Disadvantages:
+- Currently the solution uses file-based datastore to avoid time spent on setting up the environment. This keeps us away from using database query optimizations offered by databases like MongoDB, MySQL
+
+What has been a favorite school/personal project thus far? What about it that challenged you?
+During my undergraduation, I worked on a project of Distributed Computing. The goal was to carry out compute-heavy tasks by utilizing compute resources of pool of nodes and finally aggregating the intermediate results from the nodes and presenting them to user.
+The main challenge was to develop a synchronization mechanism among several nodes. The synchronization involved breaking down a big job into smaller jobs, distributing them among the pool of nodes, polling worker nodes for their individual results and aggregating the intermediate results to deduce the final result which is then presented to user.
