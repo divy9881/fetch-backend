@@ -13,7 +13,7 @@ $ cd ./fetch-backend
 $ npm install
 
 # Start the API server
-# npm run app
+$ npm run app
 ```
 
 ## File tree
